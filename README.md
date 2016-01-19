@@ -79,12 +79,9 @@ Feel free to include them in your build steps (before any jsxdom transpiled code
 
 #### API
 ```javascript
-// (String, Object) => Promise => String
-parse(fileName, options)
-// (String, Object) => String
-parseSync(fileName, options)
-// String => String
-transpile(jsx)
+parse(/* String: */ fileName, /* Object: */ options) // => Promise => String
+parseSync(/* String: */ fileName, /* Object: */ options) // => String
+transpile(/* String: */ jsx) // => String
 ```
 ##### Options
 - **declarationType**: Either `var` (default) or `let`.
