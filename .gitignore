@@ -316,6 +316,4 @@ local.properties
 
 
 ### Custom ###
-dist/**
-!dist/polyfills.js
 npm-shrinkwrap.json
